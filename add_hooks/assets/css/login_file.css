@@ -1,0 +1,14 @@
+.wp-core-ui .button-primary {
+    background: #e91e63 !important;
+    border-color: #e91e63 !important;
+}
+
+form#loginform {
+    background: orange !important;
+    color: white !important;
+}
+
+p.message {
+    background: orange !important;
+    color: white;
+}

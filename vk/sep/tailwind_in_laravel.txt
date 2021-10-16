@@ -1,0 +1,11 @@
+1> npm install tailwind
+2> npm run dev
+3> npm run dev
+4> Add this in webpack.mix.js file -->  require("tailwindcss"),
+5> Add in code in resources > css > app.css -->
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+6> npm run dev
+7> Now include this link in your index file -->
+     <link rel="stylesheet" href="{{ asset('css/app.css') }}">   

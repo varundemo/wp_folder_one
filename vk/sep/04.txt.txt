@@ -1,0 +1,18 @@
+1> Work on yogiste --> https://www.yogitimes.com/article/best-top-online-yoga-video-home-streaming-classes-practice-apps-platforms????
+ page.
+2> Change some text on this page.
+
+3> Shopify Practice.
+4> Converting Liquid to json template.
+5> https://shopify.dev/themes/migration
+6> Steps to follow -->
+ (i) Remove {% section %} tags.
+ (ii) Move surrounding code into their section.
+ (iii) Replace the liquid template with a JSON template.
+ (iv) Add in references to the sections into your new JSON template
+7> Make Duplicate on theme.
+8> Take code form any of the template file. eg-> 404 file.
+9> And make another file in section directory with template file name and "-template".
+10> name it as you want and paste code here.
+11> Now delete the 404 template file and create another 404 json file.
+12> Now check the customize of this page you can see another section with that name.

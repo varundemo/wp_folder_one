@@ -1,0 +1,19 @@
+1> worked on livefast shopify site.
+2> Need to change cart dryer pop up to right to left direction.
+3> Need to add cross on the cart dryer and by clicking it remove the cart.
+
+4> worked on the yogitimes site.
+5> Remove the ads from the home page by making a condition to show diffrent header and footer for the home page.
+
+6> Sam website work.
+7> To to convert figma to html code.
+8> Downloaded three plugins.
+9> Anima, Quest, Figma to HTML,Css(All are paid).
+
+10> Try to use social blade api.
+11> Make an account there and get the client id and tokken.
+12> Api --> https://matrix.sbapis.com/b/youtube/statistics?query=socialblade&clientid=
+cli_bcd6d1418f783f36f947a3f6&token=61fa56f23f75f98fd0354197e21c28cdaca6230baa17f4eb514680cfb9f214388c2d688070e9d45a30a8a5f6f985699f52eb8de94f09b02e2c91703e0253d41f
+13> Client id --> cli_bcd6d1418f783f36f947a3f6
+14> tokken --> 61fa56f23f75f98fd0354197e21c28cdaca6230baa17f4eb514680cfb9f214388c2d688070e9d45a30a8a5f6f985699f52eb8de94f09b02e2c91703e0253d41f
+15> To access other account stats need to get credit.

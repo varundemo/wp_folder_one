@@ -1,0 +1,25 @@
+/*This is style file*/
+
+.dataTables_wrapper .dataTables_length select{
+	padding: 5px 14px  !important;
+}
+
+/*table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: #d1e7dd !important;
+}*/
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+    background-color: #d1e7dd !important;
+}
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: #d1e7dd !important;
+}
+
+label#prod_price-error,label#-error ,label#prod_name-error{
+    color: red;
+}
+
+.alert.alert-success{
+border: 2px solid #0f5132 !important;
+    border-radius: 10px !important;
+}

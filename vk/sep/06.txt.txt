@@ -1,0 +1,13 @@
+1> wp_logout_url() --> Give to url to logout from the wordpress.
+2> get_current_user_id() --> Give the current user id.
+3> wp_get_current_user() --> Give the current user all details.
+4> is_user_logged_in() --> Determines whether the current visitor is a logged in user.
+5> is_admin() --> Determines whether the current request is for an administrative interface page.
+6> current_user_can( string $capability, mixed $args )
+7> add_action("admin_bar_menu","function_name",999); --> Hook to add any item in the admin bar. 
+8> $wp_admin_bar->add_node($args);
+9> wp_delete_post($id) --> delete the post.
+
+
+
+a:1:{s:13:"administrator";b:1;}

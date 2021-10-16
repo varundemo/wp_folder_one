@@ -1,0 +1,11 @@
+1> Download Hummingbird plugin to Eliminate render-blocking resources.
+2> Try to unload unused css/js file from asset cleaner but that has not work.
+3> Try to decrease the size of images by downloading wp-optimize plugin but that has not work.
+4> Downloaded swift performance plugin and deactivated other speed test plugin.
+5> wp_is_mobile() to find out mobile devices.
+
+
+1> Ad inserter
+2> Ga google analytics 24 -> 29
+3> Import from shopify 25 --> 47
+4> woocommerce 21 --> 45

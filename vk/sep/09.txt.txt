@@ -1,0 +1,33 @@
+Has Many relation ship between User and Post -->
+1> code for User Model ->
+    public function post(){
+        return $this->hasMany(Post::class);
+    }
+2> Post Controller -->
+    public function create(Request $request)
+    {
+        $user = $request->user();
+        $post = new Post;
+        $post->title = $request->title;
+        $post->body = $request->body;
+        $user->post()->save($post);
+	return redirect(route('post_index'));
+
+    }
+3> VS code extension --> PHP Intelephense
+
+4> Site Name --> https://www.hghvallarta.com/
+
+5> Plugin Used -->
+  (i) WooCommerce UPC, EAN, and ISBN --> Add GTIN including UPC, EAN, and ISBN code fields to your WooCommerce 
+product pages and checkout.
+
+6> Code for Post Model -->
+     public function user(){
+        return $this->belongsTo(User::class);
+    }
+7> To get value in view -->  
+
+	@foreach($posts as $post){
+	{{ $post->user->name }} 
+	}

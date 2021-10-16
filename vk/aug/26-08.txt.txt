@@ -1,0 +1,11 @@
+1> To find current page url ->
+ global $wp;
+ echo home_url( $wp->request );
+2> To find home page url ->
+ echo home_url( );
+3> dns-prefetch attributte in link tag -->
+ to reduce DNS resolution i.e. when request to third party server cross-origin domain name must be resolve to an IP address.
+4> check site in GTmetrix for speed test.
+5> To reduce unused javascript use Asset CleanUp and Perfmatter(paid) plugin.
+6> wp_is_mobile() --> Test if the current browser runs on a mobile device or thb_is_mobile()
+7> cart-drawer in snippet-> cart-drawer.liquid file

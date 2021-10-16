@@ -1,0 +1,46 @@
+1> Download plugin MC4WP
+2> gO to the plugin.
+3> Now Login to mailchimp 
+4> On the name dropdown section click "Account"
+5> There click on "Extras" --> "Api keys"
+6> scorll down and create api keys.
+7> Copy the api key and paste in the MC4WP plugin section
+8> then save changes.
+9> Go to "form" section of plugin
+10> Give the name of the form you want and tick the wiyre videos
+11> Now click Add new Form button
+12> Click on the field you want to add in the form fill that field, it will be added.
+13> Can also add with code.
+14> Add the cursor there were you want to add the field.
+15> Now click save changes to save the form
+16> Messages option to send the message to the client can customize it.
+17> In apprance you have diffrent themes for your form.
+18> Now take the shortcode form the plugin first option add it to the page.
+19> Can also add this using widget in footer or any other section from the customization. mailchimp option will
+   be there to choose.
+20> Check the form is working by signup with different account.
+21> To verfiy this new user go to mailchimp account.
+22> Click the audience option on the navbar
+23> You will see notification new subscriber is added, then click on the notification you will see the user.
+24> If Source option in user tables have API value then integration is working fine
+25> In plugin "Other" section is usefull for debugging. 
+
+
+
+and add an extra dropdown to choose a sales rep: the options are: 
+Anthony, Ruan, Bryt, James, Reggie, Morgan, Stan, Elsa
+
+<p>Select a scooter<br />
+   [select* Selectascooter class:Selectascooter id:Selectascooter ]
+<p>Area (required)<br />
+[select* t_area class:t_area "Gauteng" "KZN" "Pretoria" "Cape Town"]
+<p>Sales Rep: (required)<br />
+[select* t_sales class:t_sales "Anthony" "Ruan" "Bryt" "James" "Reggie" "Morgan" "Stan" "Elsa"]
+<p>Your Name (required)<br />
+    [text* your-name] </p>
+<p>Email (required)<br />
+    [email* your-email] </p>
+<p>Phone Number  (required)<br />
+    [tel* tel-616]</p>
+<p>[recaptcha class:mrecaptcha]</p>
+<p>[submit "Send"]</p>

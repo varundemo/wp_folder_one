@@ -1,0 +1,2 @@
+1> can add two event in same onClick function in javascript.
+2> click() function to click any button.

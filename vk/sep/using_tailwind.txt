@@ -1,0 +1,23 @@
+1> open a folder.
+2> write command 
+3> Create a init file using -->
+	php init -y
+4> Install tailwind css using -->
+   npm i tailwindcss
+5> create scr/style.css
+6> Add this code in file -->
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+7> create dist/style.css and dist/index.html
+8> in package.json replace or add script -->
+    "build:css":"tailwind build src/style.css -o dist/style.css"
+9> Now run command -->
+    npm run build:css
+10> Now add style.css file in index file.
+
+
+11> To customize tailwind -->
+1> run command -->
+   npm tailwind init
+2> 

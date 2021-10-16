@@ -1,0 +1,67 @@
+1> delete_option("my_book_id") --> To delete any row from the option table.
+2> get_option("my_book_id") --> get the option value based on option name.
+3> wp_delete_post(get_option("my_book_id"), true) --> Delete the post by given the id of the post. Second argument for 
+force delete.
+4> add_shortcode("shortcode_id/shortode_name","function_name"); --> Use shortcode in pages using the shortcode id defined.
+5> do_shortcode("[my_book]"); --> To add shortcode on the frontend.
+6> $_SERVER['HTTP_HOST'] --> give host name.
+7> $_SERVER['REQUEST_URI'] --> Give Request uri after host name.
+8> add_filter("page_template","online_book_layout"); --> to include a page templage.
+9> echo wp_trim_words( $product->prod_desc, 20 ); --> Trims text to a certain number of words.
+10> add_action("admin_notices","fuction_name") --> To show notice to the admin. can use worpdress pre define classes
+notice, notice-error
+
+11> add_meta_box( 'linksubmitdiv', __( 'Save' ), 'link_submit_meta_box', null, 'side', 'core' );
+	add_action("add_meta_boxes","function_name")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Client Work -->
+
+
+We only change your sending status in order to protect your reputation as a sender, and to ensure that other SES 
+customers' ability to send email isn't impacted. We may pause your account's ability to send email so that you have time 
+to address these issues. When you fix these issues, we'll restore your account's ability to send email.
+
+We recently performed a manual review of your account&#39;s email-sending practices. During our review, we identified 
+characteristics that could cause email providers or anti-spam organizations to classify your messages as spam.
+
+The methods we use to make this decision are proprietary, so unfortunately we can&#39;t provide specific details. 
+In general, we only perform manual reviews when our automated systems indicate that an account is sending unsolicited email.
+
+Please review your email-sending practices and procedures to determine the causes of this issue. Common factors that 
+could cause this issue include, but aren&#39;t limited to, the following:
+- Messages that are flagged by commercial anti-spam filters
+- Message content that implies that the recipient didn&#39;t explicitly ask to receive this type of message from you
+- A mismatch between the branding in the messages and the sending email address
+- Messages that contain content that&#39;s commonly associated with unsolicited sending
+- Email-sending patterns that are associated with unsolicited sending
+- Sending from or linking to domains that have poor reputations with online reputation monitoring systems
+
+1> check your complaint rate has gone more than 0.1% 3rd sep to 5th sep.This may cause to sending account under review.
+I have not worked on your site 4th and 5th september. On 3rd sep. I only have made small text changes as you said. 
+First, be sure that you monitor the complaints that Amazon SES can notify you.
+
+
+After you make changes that you believe will resolve the issue, sign into the AWS Console and go to Support Center.
+ Reply to the case we opened on your behalf. In your message, provide detailed information about the steps you've taken 
+to resolve the issue, and describe how these steps prevent the issue from happening again in the future.
+ 

@@ -1,0 +1,5 @@
+1> To find current page url ->
+ global $wp;
+ echo home_url( $wp->request );
+2> To find home page url ->
+ echo home_url( );

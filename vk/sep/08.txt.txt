@@ -1,0 +1,32 @@
+1> get_post_meta($post->ID,"custom_meta_id",true); --> To get the value of post meta table according to id pass, true or
+ false if require one value or more.
+2> add_action( 'admin_enqueue_scripts', string $hook_suffix ) --> https://developer.wordpress.org/reference/hooks/admin_enqueue_scripts/
+3> add_action("login_enqueue_scripts","add_file_to_login"); --> To add file only on the login page.
+4> site_url($path) --> Give the url of the site.can give path as well like wp-login.php.
+5> add_action("wp_head","custom_head_file_css"); --> To add file in header section.
+6> add_action("wp_footer","custom_head_file_css"); --> To add file in footer section.
+7> plugin_dir_url(__FILE__) --> Give path to the plugin folder.
+8> add_action("login_form","add_login_custom_field"); --> To add custom field in the login form
+9> add_action("login_head","custom_field_error"); --> To show errors on the login form.
+10>  global $error; --> To show errors on the login form.
+11> add_action("wp_login","fetch_login_data_func"); --> call imediately after user login.
+	PART NUMBER -- 15
+1> Filter Hook --> those hooks which manipulate data before it is saved or update.eg-> when we save data to the database
+    then to manipulate that data we can use these hooks, or when we retrieve data from database then to change that we 
+    can use these filter hooks.
+2> the_title --> To change the title of the page.
+	add_filter("the_title","add_custom_title");
+
+	function add_custom_title($title){
+    		return "Admin-".$title;
+	}
+3> Similar to that we the the_content hook.
+4> add_filter("login_headerurl","function_name") --> To change the url of the logo on the login page.
+5> add_filter("login_headertitle","function_name") --> To change the title of the logo on the login page.
+
+7> wp_logout_url , wp_lostpassword_url ---> filter hooks.
+
+8> set PATH=%PATH%;C:\Program Files\Nodejs node js path.
+
+9> SET PATH=C:\Program Files\Nodejs;%PATH%	
+   

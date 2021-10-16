@@ -1,0 +1,22 @@
+1> php artisan make:policy PostPolicy
+2> reomove if any method in it.
+3> make a function delete or whatever.
+4> give it parameter user and post.
+5> write a condition for match in it.
+6> Remove owndedby method form the Post model.
+7> Remove condition from the destroy method in PostController.
+8> Define policy in Provider > AuthServiceProvider
+9> write model = policy ie, Post::class => PostPolicy::class
+10> Now in destroy function in Post controller write a method.
+    $this->authorize('function_name_in_policy', $post)
+11> In view file use method @can('function_name_in_policy',$post) @endcan
+
+
+
+User specific posts -->
+1> make controller UserPostController
+2> make index function give parameter $user.
+3> Define route users/{user}/posts and name users.posts
+4> Define route in view file with send value is $post->user which will send that clicked user.
+5> Now define a view in index method "users.posts.index" with $user variable.
+6> can also define in route {user:username}

@@ -1,0 +1,3 @@
+1> Ex-> one website can be made by multiple language.
+2> SOme languages used some left.
+3> Create Project,Language and Deployment model, migration and controller.
